@@ -887,6 +887,9 @@
                                 <rect key="frame" x="23" y="390" width="46" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="ingredientePresionado:" destination="1yh-hT-y4y" eventType="touchUpInside" id="Nt8-Ak-SiY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUV-yX-bYK">
                                 <rect key="frame" x="180" y="378" width="46" height="30"/>
