@@ -372,7 +372,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="40827_food_pizza.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C6q-h2-akR">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="cpC-RX-huJ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="cpC-RX-huJ"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -406,10 +406,12 @@
                             <constraint firstItem="RYl-90-Nhi" firstAttribute="top" secondItem="e8Y-Ka-Tqx" secondAttribute="bottom" constant="20" id="TBQ-Uf-ZFH"/>
                             <constraint firstItem="C6q-h2-akR" firstAttribute="centerX" secondItem="HOm-A8-5Ne" secondAttribute="centerX" id="Zml-eN-4gB"/>
                             <constraint firstItem="C6q-h2-akR" firstAttribute="centerY" secondItem="HOm-A8-5Ne" secondAttribute="centerY" id="ZvG-SF-0gG"/>
+                            <constraint firstItem="u4U-qV-vzR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="C6q-h2-akR" secondAttribute="bottom" constant="5" id="bTD-GX-BOC"/>
                             <constraint firstItem="pWg-Rc-1wz" firstAttribute="leading" secondItem="07F-II-10W" secondAttribute="trailing" constant="15" id="bu4-x6-99I"/>
                             <constraint firstItem="tNA-35-G9H" firstAttribute="centerX" secondItem="HOm-A8-5Ne" secondAttribute="centerX" id="cW8-nB-zmP"/>
                             <constraint firstItem="u4U-qV-vzR" firstAttribute="width" secondItem="hfj-66-3AQ" secondAttribute="width" id="l9R-26-3y9"/>
                             <constraint firstItem="pWg-Rc-1wz" firstAttribute="width" secondItem="07F-II-10W" secondAttribute="width" id="oFe-mh-g4j"/>
+                            <constraint firstItem="C6q-h2-akR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jmL-f3-z3H" secondAttribute="bottom" constant="5" id="q8k-77-4Bz"/>
                             <constraint firstItem="uk5-y7-Gud" firstAttribute="top" secondItem="07F-II-10W" secondAttribute="bottom" constant="100" id="rcQ-zj-UNg"/>
                             <constraint firstItem="jmL-f3-z3H" firstAttribute="centerX" secondItem="HOm-A8-5Ne" secondAttribute="centerX" id="tnz-QI-PUR"/>
                             <constraint firstItem="u4U-qV-vzR" firstAttribute="width" secondItem="hdZ-FI-1y8" secondAttribute="width" id="tzI-CV-5kG"/>
@@ -431,10 +433,12 @@
                                 <exclude reference="7OJ-1Z-gad"/>
                                 <exclude reference="Zml-eN-4gB"/>
                                 <exclude reference="ZvG-SF-0gG"/>
+                                <exclude reference="q8k-77-4Bz"/>
                                 <exclude reference="JKM-aH-YBy"/>
                                 <exclude reference="8UA-fc-tvD"/>
                                 <exclude reference="D2V-b8-rfZ"/>
                                 <exclude reference="EV7-f0-8In"/>
+                                <exclude reference="bTD-GX-BOC"/>
                                 <exclude reference="l9R-26-3y9"/>
                                 <exclude reference="tzI-CV-5kG"/>
                                 <exclude reference="wgf-BR-Mkk"/>
@@ -465,10 +469,12 @@
                                 <include reference="7OJ-1Z-gad"/>
                                 <include reference="Zml-eN-4gB"/>
                                 <include reference="ZvG-SF-0gG"/>
+                                <include reference="q8k-77-4Bz"/>
                                 <include reference="JKM-aH-YBy"/>
                                 <include reference="8UA-fc-tvD"/>
                                 <include reference="D2V-b8-rfZ"/>
                                 <include reference="EV7-f0-8In"/>
+                                <include reference="bTD-GX-BOC"/>
                                 <include reference="l9R-26-3y9"/>
                                 <include reference="tzI-CV-5kG"/>
                                 <include reference="wgf-BR-Mkk"/>
