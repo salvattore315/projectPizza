@@ -693,16 +693,16 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10111537-Joven-familia-comiendo-pizza-en-la-sala-de-estar-Foto-de-archivo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FRA-i1-JA8">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pizza lista" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbG-fv-fuX">
-                                <rect key="frame" x="42" y="161" width="76" height="21"/>
-                                <color key="backgroundColor" red="0.38823529410000002" green="0.72549019609999998" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RK-Am-6A4">
+                                <rect key="frame" x="59" y="294" width="42" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.74117648599999997" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RK-Am-6A4">
-                                <rect key="frame" x="59" y="294" width="42" height="21"/>
-                                <color key="backgroundColor" red="0.0" green="0.74117648599999997" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pizza lista" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbG-fv-fuX">
+                                <rect key="frame" x="42" y="161" width="76" height="21"/>
+                                <color key="backgroundColor" red="0.38823529410000002" green="0.72549019609999998" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -714,8 +714,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="FRA-i1-JA8" secondAttribute="trailing" constant="-20" id="Ksz-Ak-ZGT"/>
                             <constraint firstItem="3RK-Am-6A4" firstAttribute="top" secondItem="LbG-fv-fuX" secondAttribute="bottom" constant="200" id="NxQ-pO-e3X"/>
                             <constraint firstItem="LbG-fv-fuX" firstAttribute="top" secondItem="tHb-nM-IaJ" secondAttribute="bottom" constant="150" id="NxY-57-Lbm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3RK-Am-6A4" secondAttribute="trailing" id="Rfy-9g-qqb"/>
                             <constraint firstItem="4d0-i7-qDg" firstAttribute="top" secondItem="FRA-i1-JA8" secondAttribute="bottom" id="ePT-qC-9Ep"/>
                             <constraint firstItem="3RK-Am-6A4" firstAttribute="centerX" secondItem="bRb-Os-Cds" secondAttribute="centerX" id="hfD-VI-xCx"/>
+                            <constraint firstItem="3RK-Am-6A4" firstAttribute="leading" secondItem="bRb-Os-Cds" secondAttribute="leadingMargin" id="jr8-mq-KvJ"/>
                             <constraint firstItem="FRA-i1-JA8" firstAttribute="top" secondItem="tHb-nM-IaJ" secondAttribute="bottom" id="qrN-kk-n8N"/>
                             <constraint firstItem="LbG-fv-fuX" firstAttribute="centerX" secondItem="bRb-Os-Cds" secondAttribute="centerX" id="zhz-JA-0cE"/>
                         </constraints>
@@ -730,7 +732,9 @@
                                 <exclude reference="NxY-57-Lbm"/>
                                 <exclude reference="zhz-JA-0cE"/>
                                 <exclude reference="NxQ-pO-e3X"/>
+                                <exclude reference="Rfy-9g-qqb"/>
                                 <exclude reference="hfD-VI-xCx"/>
+                                <exclude reference="jr8-mq-KvJ"/>
                                 <exclude reference="ePT-qC-9Ep"/>
                             </mask>
                         </variation>
@@ -745,13 +749,15 @@
                                 <include reference="NxY-57-Lbm"/>
                                 <include reference="zhz-JA-0cE"/>
                                 <include reference="NxQ-pO-e3X"/>
+                                <include reference="Rfy-9g-qqb"/>
                                 <include reference="hfD-VI-xCx"/>
+                                <include reference="jr8-mq-KvJ"/>
                                 <include reference="ePT-qC-9Ep"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="labelResultado" destination="3RK-Am-6A4" id="mNd-KS-Rfw"/>
+                        <outlet property="labelResultado" destination="3RK-Am-6A4" id="qMK-1I-iwa"/>
                         <outlet property="noosilista" destination="LbG-fv-fuX" id="Zqm-XS-NGb"/>
                     </connections>
                 </viewController>

@@ -42,7 +42,7 @@ class ConfirmacionViewController: ViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        var stingMesaje : NSString = "Orden no procesada, falto seleccionar:"
+        var stingMesaje : String = "Orden no procesada, falto seleccionar:"
         var boolean : Bool = false
         
         let queso : String = self.cotenAll[self.tipoqueso] as! String
@@ -54,28 +54,30 @@ class ConfirmacionViewController: ViewController {
         
         if( ingredientes == []){
         
-         stingMesaje = (stingMesaje as String) + " ingredientes,"
+            var msj : String = stingMesaje
+         stingMesaje = msj  + " ingredientes,"
          boolean = true
         }
         
         
         if( queso == ""){
         
-            stingMesaje = (stingMesaje as String) + " Tipo de queso,"
+            var msj : String = stingMesaje
+            stingMesaje = msj  + " Tipo de queso,"
             boolean = true
         }
         
         
         if( masa == ""){
-        
-        stingMesaje = (stingMesaje as String) + " Tipo de masa,"
+        var msj : String = stingMesaje
+        stingMesaje = msj + " Tipo de masa,"
         boolean = true
         }
         
         
         if( tamaño == ""){
-        
-         stingMesaje = (stingMesaje as String) + " Tamaño,"
+        var msj : String = stingMesaje
+         stingMesaje = msj + " Tamaño,"
         boolean = true
         }
         
@@ -91,17 +93,16 @@ class ConfirmacionViewController: ViewController {
         
         
         let se = segue.destinationViewController as! ResultadoViewController
-        se.labelResultado = UILabel()
-        se.noosilista = UILabel()
-        se.labelResultado.text = String(stingMesaje)
+
+        se.resul = stingMesaje
         
         if(boolean == false){
         
-            se.noosilista.text = "pizza lista"
+            se.no = "pizza lista"
         
         }else{
         
-            se.noosilista.text = "pizza no lista"
+            se.no = "pizza no lista"
         
         }
         

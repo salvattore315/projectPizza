@@ -17,11 +17,23 @@ class ResultadoViewController: ViewController {
     
     @IBOutlet var labelResultado: UILabel!
     
+    var no : String!
+    var resul : String!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        
+        self.noosilista.text = no
+        self.labelResultado.text = resul
+        
     }
 
     override func didReceiveMemoryWarning() {
