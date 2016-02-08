@@ -22,6 +22,13 @@
 		205C34F31C68520F008B3AF7 /* ConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C34F21C68520F008B3AF7 /* ConfirmacionViewController.swift */; };
 		205C34F51C685699008B3AF7 /* ResultadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C34F41C685699008B3AF7 /* ResultadoViewController.swift */; };
 		205C34F71C6857BF008B3AF7 /* SeEmpiezaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C34F61C6857BF008B3AF7 /* SeEmpiezaViewController.swift */; };
+		205C34FA1C6864CA008B3AF7 /* Pizza_1008.pic640i.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205C34F91C6864CA008B3AF7 /* Pizza_1008.pic640i.jpg */; };
+		205C34FC1C6865D2008B3AF7 /* tamanos.fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 205C34FB1C6865D2008B3AF7 /* tamanos.fw.png */; };
+		205C34FE1C68666D008B3AF7 /* vee8c8jo5qjv02bazlug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205C34FD1C68666D008B3AF7 /* vee8c8jo5qjv02bazlug.jpg */; };
+		205C35001C686672008B3AF7 /* 40827_food_pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205C34FF1C686672008B3AF7 /* 40827_food_pizza.jpg */; };
+		205C35021C686791008B3AF7 /* Que_le_pasa_a_tu_cuerpo_cuando_comes_quesos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205C35011C686791008B3AF7 /* Que_le_pasa_a_tu_cuerpo_cuando_comes_quesos.jpg */; };
+		205C35041C68680B008B3AF7 /* 10111537-Joven-familia-comiendo-pizza-en-la-sala-de-estar-Foto-de-archivo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205C35031C68680B008B3AF7 /* 10111537-Joven-familia-comiendo-pizza-en-la-sala-de-estar-Foto-de-archivo.jpg */; };
+		205C35061C686811008B3AF7 /* 6807282-Amigos-divertirse-y-comer-pizza--Foto-de-archivo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205C35051C686811008B3AF7 /* 6807282-Amigos-divertirse-y-comer-pizza--Foto-de-archivo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		205C34F21C68520F008B3AF7 /* ConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionViewController.swift; sourceTree = "<group>"; };
 		205C34F41C685699008B3AF7 /* ResultadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadoViewController.swift; sourceTree = "<group>"; };
 		205C34F61C6857BF008B3AF7 /* SeEmpiezaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeEmpiezaViewController.swift; sourceTree = "<group>"; };
+		205C34F91C6864CA008B3AF7 /* Pizza_1008.pic640i.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pizza_1008.pic640i.jpg; sourceTree = "<group>"; };
+		205C34FB1C6865D2008B3AF7 /* tamanos.fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamanos.fw.png; sourceTree = "<group>"; };
+		205C34FD1C68666D008B3AF7 /* vee8c8jo5qjv02bazlug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vee8c8jo5qjv02bazlug.jpg; sourceTree = "<group>"; };
+		205C34FF1C686672008B3AF7 /* 40827_food_pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 40827_food_pizza.jpg; sourceTree = "<group>"; };
+		205C35011C686791008B3AF7 /* Que_le_pasa_a_tu_cuerpo_cuando_comes_quesos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Que_le_pasa_a_tu_cuerpo_cuando_comes_quesos.jpg; sourceTree = "<group>"; };
+		205C35031C68680B008B3AF7 /* 10111537-Joven-familia-comiendo-pizza-en-la-sala-de-estar-Foto-de-archivo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10111537-Joven-familia-comiendo-pizza-en-la-sala-de-estar-Foto-de-archivo.jpg"; sourceTree = "<group>"; };
+		205C35051C686811008B3AF7 /* 6807282-Amigos-divertirse-y-comer-pizza--Foto-de-archivo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6807282-Amigos-divertirse-y-comer-pizza--Foto-de-archivo.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +127,7 @@
 		205C34B81C683764008B3AF7 /* Pizza */ = {
 			isa = PBXGroup;
 			children = (
+				205C34F81C6864C0008B3AF7 /* imagenes */,
 				205C34B91C683764008B3AF7 /* AppDelegate.swift */,
 				205C34BB1C683764008B3AF7 /* ViewController.swift */,
 				205C34F61C6857BF008B3AF7 /* SeEmpiezaViewController.swift */,
@@ -147,6 +162,20 @@
 				205C34DE1C683764008B3AF7 /* Info.plist */,
 			);
 			path = PizzaUITests;
+			sourceTree = "<group>";
+		};
+		205C34F81C6864C0008B3AF7 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				205C35051C686811008B3AF7 /* 6807282-Amigos-divertirse-y-comer-pizza--Foto-de-archivo.jpg */,
+				205C35031C68680B008B3AF7 /* 10111537-Joven-familia-comiendo-pizza-en-la-sala-de-estar-Foto-de-archivo.jpg */,
+				205C35011C686791008B3AF7 /* Que_le_pasa_a_tu_cuerpo_cuando_comes_quesos.jpg */,
+				205C34FF1C686672008B3AF7 /* 40827_food_pizza.jpg */,
+				205C34FD1C68666D008B3AF7 /* vee8c8jo5qjv02bazlug.jpg */,
+				205C34F91C6864CA008B3AF7 /* Pizza_1008.pic640i.jpg */,
+				205C34FB1C6865D2008B3AF7 /* tamanos.fw.png */,
+			);
+			name = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +282,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205C35021C686791008B3AF7 /* Que_le_pasa_a_tu_cuerpo_cuando_comes_quesos.jpg in Resources */,
+				205C34FA1C6864CA008B3AF7 /* Pizza_1008.pic640i.jpg in Resources */,
 				205C34C71C683764008B3AF7 /* LaunchScreen.storyboard in Resources */,
 				205C34C41C683764008B3AF7 /* Assets.xcassets in Resources */,
 				205C34BF1C683764008B3AF7 /* Main.storyboard in Resources */,
+				205C35001C686672008B3AF7 /* 40827_food_pizza.jpg in Resources */,
+				205C34FE1C68666D008B3AF7 /* vee8c8jo5qjv02bazlug.jpg in Resources */,
+				205C34FC1C6865D2008B3AF7 /* tamanos.fw.png in Resources */,
+				205C35061C686811008B3AF7 /* 6807282-Amigos-divertirse-y-comer-pizza--Foto-de-archivo.jpg in Resources */,
+				205C35041C68680B008B3AF7 /* 10111537-Joven-familia-comiendo-pizza-en-la-sala-de-estar-Foto-de-archivo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

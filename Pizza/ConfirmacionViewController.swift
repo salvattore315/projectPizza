@@ -91,8 +91,9 @@ class ConfirmacionViewController: ViewController {
         
         
         let se = segue.destinationViewController as! ResultadoViewController
-        
-        se.labelResultado.text = stingMesaje as String
+        se.labelResultado = UILabel()
+        se.noosilista = UILabel()
+        se.labelResultado.text = String(stingMesaje)
         
         if(boolean == false){
         

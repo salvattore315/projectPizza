@@ -76,41 +76,42 @@ class Etapa4ViewController: ViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         self.cotenAll.removeObjectForKey(self.ingrediente)
+        var mutableArrya = NSMutableArray()
         
         if(self.jamon.selected == true){
         
-            self.cotenAll.setValue(self.jamonS, forKey: self.ingrediente)
-        
+            
+            mutableArrya.addObject(self.jamonS)
         
         }
         
         
         if(self.pepperoni.selected == true){
         
-        self.cotenAll.setValue(self.pepperoniS, forKey: self.ingrediente)
+        mutableArrya.addObject(self.pepperoniS)
         
         }
         
         if(self.pavo.selected == true){
         
-        self.cotenAll.setValue(self.pavoS, forKey: self.ingrediente)
+        mutableArrya.addObject(self.pavoS)
         
         }
         
         if(self.salchicha.selected == true){
         
-        self.cotenAll.setValue(self.salchichaS, forKey: self.ingrediente)
+        mutableArrya.addObject(self.salchichaS)
         
         }
         
         if(self.aceituna.selected == true){
         
-        self.cotenAll.setValue(self.aceitunaS, forKey: self.ingrediente)
+        mutableArrya.addObject(self.aceitunaS)
         
         
         }
         
-        
+        self.cotenAll.setValue(mutableArrya, forKey: self.ingrediente)
         if(jamon.selected == false && pepperoni.selected == false && pavo.selected == false && salchicha.selected == false && aceituna.selected == false){
         
             self.cotenAll.setValue([], forKey: self.ingrediente)
